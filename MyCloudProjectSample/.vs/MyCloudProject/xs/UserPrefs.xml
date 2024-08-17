@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{F1D4DE86-8FB6-4992-8300-9580DE1D8F39}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyCloudProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyExperiment/Experiment.cs">
+    <Files>
+      <File FileName="MyCloudProject/Program.cs" />
+      <File FileName="MyExperiment/AzureStorageProvider.cs" />
+      <File FileName="MyCloudProject.Common/IExperimentResult.cs" />
+      <File FileName="MyCloudProject/appsettings.json" />
+      <File FileName="MyCloudProject.Common/IStorageProvider.cs" />
+      <File FileName="MyExperiment/ExerimentRequestMessage.cs" />
+      <File FileName="MyExperiment/MyConfig.cs" />
+      <File FileName="MyCloudProject.Common/IExperiment.cs" />
+      <File FileName="MyExperiment/Experiment.cs" Line="9" Column="17" />
+      <File FileName="MyCloudProject.Common/InitHelpers.cs" />
+      <File FileName="MyExperiment/ExperimentResult.cs" />
+      <File FileName=".editorconfig" />
+      <File FileName="../../../../../../../usr/local/share/dotnet/sdk/7.0.312/Microsoft.Common.CurrentVersion.targets" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyCloudProject" expanded="True">
+            <Node name="MyExperiment">
+              <Node name="Experiment.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

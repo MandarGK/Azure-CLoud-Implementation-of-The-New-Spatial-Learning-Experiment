@@ -1,0 +1,12 @@
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/bin/Debug/net7.0/MyCloudProject.Common.deps.json
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/bin/Debug/net7.0/MyCloudProject.Common.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/bin/Debug/net7.0/MyCloudProject.Common.pdb
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.csproj.AssemblyReference.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.AssemblyInfoInputs.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.AssemblyInfo.cs
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.csproj.CoreCompileInputs.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/refint/MyCloudProject.Common.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/MyCloudProject.Common.pdb
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/Debug/net7.0/ref/MyCloudProject.Common.dll

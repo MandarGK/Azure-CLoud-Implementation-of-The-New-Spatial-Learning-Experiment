@@ -1,0 +1,15 @@
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/bin/Debug/net7.0/MyExperiment.deps.json
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/bin/Debug/net7.0/MyExperiment.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/bin/Debug/net7.0/MyExperiment.pdb
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/bin/Debug/net7.0/MyCloudProject.Common.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/bin/Debug/net7.0/MyCloudProject.Common.pdb
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.csproj.AssemblyReference.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.AssemblyInfoInputs.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.AssemblyInfo.cs
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.csproj.CoreCompileInputs.cache
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.csproj.CopyComplete
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/refint/MyExperiment.dll
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/MyExperiment.pdb
+/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/Debug/net7.0/ref/MyExperiment.dll

@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/MyExperiment.csproj": {}
+  },
+  "projects": {
+    "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/MyCloudProject.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/MyCloudProject.Common.csproj",
+        "projectName": "MyCloudProject.Common",
+        "projectPath": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/MyCloudProject.Common.csproj",
+        "packagesPath": "/Users/mandarkale/.nuget/packages/",
+        "outputPath": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mandarkale/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/mandarkale/Documents/SoftwareEngg/neocortexapi/source/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HtmImageEncoder": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NeoCortexApi": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/MyExperiment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/MyExperiment.csproj",
+        "projectName": "MyExperiment",
+        "projectPath": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/MyExperiment.csproj",
+        "packagesPath": "/Users/mandarkale/.nuget/packages/",
+        "outputPath": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyExperiment/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mandarkale/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/mandarkale/Documents/SoftwareEngg/neocortexapi/source/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/MyCloudProject.Common.csproj": {
+                "projectPath": "/Users/mandarkale/Documents/Cloud_Computing/se-cloud-2023-2024/Source/MyCloudProjectSample/MyCloudProject.Common/MyCloudProject.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.8.3, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.20.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "HtmImageEncoder": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "NeoCortexApi": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

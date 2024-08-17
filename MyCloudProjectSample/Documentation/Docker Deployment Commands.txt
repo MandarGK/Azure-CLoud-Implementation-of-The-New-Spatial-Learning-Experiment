@@ -1,0 +1,81 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker images
+>>
+REPOSITORY                              TAG       IMAGE ID       CREATED         SIZE
+mycloudproject                          latest    384547c3d0ec   2 minutes ago   259MB
+mcr.microsoft.com/dotnet/runtime        7.0       c95462acfb2e   2 months ago    190MB
+anushruthpal/webapplicationlabex4       v4        a022ef1223fa   2 months ago    220MB
+webapplication4                         latest    a022ef1223fa   2 months ago    220MB
+webapplication4                         dev       44e2756262c3   2 months ago    212MB
+mcr.microsoft.com/dotnet/aspnet         7.0       5e55296be5a6   2 months ago    212MB
+ccanushruthex2.azurecr.io/consoleapp1   v3        54aecf9679a9   3 months ago    193MB
+anushruthpal/ccexercise2                v1        54aecf9679a9   3 months ago    193MB
+consoleapp1                             latest    54aecf9679a9   3 months ago    193MB
+consoleapp1                             dev       7792dbd68e07   3 months ago    193MB
+mcr.microsoft.com/dotnet/runtime        8.0       440f7c1d61f0   3 months ago    193MB
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker tag mycloudproject:latest anushruthpal/thelazycoders:v1
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker images
+>>
+REPOSITORY                              TAG       IMAGE ID       CREATED         SIZE
+anushruthpal/thelazycoders              v1        384547c3d0ec   4 minutes ago   259MB
+mycloudproject                          latest    384547c3d0ec   4 minutes ago   259MB
+mcr.microsoft.com/dotnet/runtime        7.0       c95462acfb2e   2 months ago    190MB
+anushruthpal/webapplicationlabex4       v4        a022ef1223fa   2 months ago    220MB
+webapplication4                         latest    a022ef1223fa   2 months ago    220MB
+webapplication4                         dev       44e2756262c3   2 months ago    212MB
+mcr.microsoft.com/dotnet/aspnet         7.0       5e55296be5a6   2 months ago    212MB
+ccanushruthex2.azurecr.io/consoleapp1   v3        54aecf9679a9   3 months ago    193MB
+anushruthpal/ccexercise2                v1        54aecf9679a9   3 months ago    193MB
+consoleapp1                             latest    54aecf9679a9   3 months ago    193MB
+consoleapp1                             dev       7792dbd68e07   3 months ago    193MB
+mcr.microsoft.com/dotnet/runtime        8.0       440f7c1d61f0   3 months ago    193MB
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker push anushruthpal/thelazycoders:v1
+The push refers to repository [docker.io/anushruthpal/thelazycoders]
+04bf33734b20: Pushed
+5f70bf18a086: Mounted from anushruthpal/webapplicationlabex4
+26065113cfa6: Pushed
+4d29f6e29d10: Pushed
+b4ec6db9c251: Pushed
+ba941484fbe1: Pushed
+123eef91533f: Mounted from anushruthpal/webapplicationlabex4
+v1: digest: sha256:30925c1cfba49b1975c652bd1e3a07ead795e3216bc15a8eb9ddb2dee1466216 size: 1784
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> az acr login -n thelazycodersregistry.azurecr.io
+The login server endpoint suffix '.azurecr.io' is automatically omitted.
+Unable to get AAD authorization tokens with message: 2024-08-11 18:24:38.812406 An error occurred: CONNECTIVITY_REFRESH_TOKEN_ERROR
+Access to registry 'thelazycodersregistry.azurecr.io' was denied. Response code: 401. Please try running 'az login' again to refresh permissions.
+Unable to get admin user credentials with message: The resource with name 'thelazycodersregistry' and type 'Microsoft.ContainerRegistry/registries' could not be found in subscription 'Azure for Students (5c3587fc-7b59-41bc-a134-d35c2129c94b)'.
+Username: thelazycodersregistry
+Password:
+Login Succeeded
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker tag mycloudproject:latest thelazycodersregistry.azurecr.io/mycloudproject1:v3
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker images
+>>
+REPOSITORY                                         TAG       IMAGE ID       CREATED         SIZE
+anushruthpal/thelazycoders                         v1        384547c3d0ec   6 minutes ago   259MB
+mycloudproject                                     latest    384547c3d0ec   6 minutes ago   259MB
+thelazycodersregistry.azurecr.io/mycloudproject1   v3        384547c3d0ec   6 minutes ago   259MB
+mcr.microsoft.com/dotnet/runtime                   7.0       c95462acfb2e   2 months ago    190MB
+anushruthpal/webapplicationlabex4                  v4        a022ef1223fa   2 months ago    220MB
+webapplication4                                    latest    a022ef1223fa   2 months ago    220MB
+webapplication4                                    dev       44e2756262c3   2 months ago    212MB
+mcr.microsoft.com/dotnet/aspnet                    7.0       5e55296be5a6   2 months ago    212MB
+ccanushruthex2.azurecr.io/consoleapp1              v3        54aecf9679a9   3 months ago    193MB
+anushruthpal/ccexercise2                           v1        54aecf9679a9   3 months ago    193MB
+consoleapp1                                        latest    54aecf9679a9   3 months ago    193MB
+consoleapp1                                        dev       7792dbd68e07   3 months ago    193MB
+mcr.microsoft.com/dotnet/runtime                   8.0       440f7c1d61f0   3 months ago    193MB
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample> docker push thelazycodersregistry.azurecr.io/mycloudproject1:v3
+The push refers to repository [thelazycodersregistry.azurecr.io/mycloudproject1]
+04bf33734b20: Pushed
+5f70bf18a086: Pushed
+26065113cfa6: Pushed
+4d29f6e29d10: Pushed
+b4ec6db9c251: Pushed
+ba941484fbe1: Pushed
+123eef91533f: Pushed
+v3: digest: sha256:30925c1cfba49b1975c652bd1e3a07ead795e3216bc15a8eb9ddb2dee1466216 size: 1784
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample>
